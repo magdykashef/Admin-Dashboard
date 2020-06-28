@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/test.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-4">
+          <nav class="navbar-expand-sm navbar-light bg-dark mx-0">
+            <button id="btn-collapse" class="navbar-toggler bg-dark mb-2" type="button" data-toggle="collapse" data-target="#sidebar"
+              aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse sidebar" id="sidebar">
+              <div class="container-fluid">
+                <div class="row">
+                  <!-- start sidebar -->
+                  <div class="col-lg-12">
+                    <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 b-border">Code And
+                      Create</a>
+                    <div class="b-border pb-3">
+                      <img class="rounded-circle mx-3" src="./images/person.jpeg" alt="" width="50">
+                      <a class="text-white" href="#">Mr.smith</a>
+                    </div>
+                    <ul class="navbar-nav flex-column mt-5">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link ￼currunt" href="#">
+                          <i class="text-white fas fa-home fa-lg mr-3 p-3"></i>Dashboard</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-user fa-lg mr-3 p-3"></i>Profile</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-envelope fa-lg mr-3 p-3"></i>Inbox</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-shopping-cart fa-lg mr-3 p-3"></i>Sales</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-chart-line fa-lg mr-3 p-3"></i>Analytics</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-chart-bar fa-lg mr-3 p-3"></i>Charts</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-table fa-lg mr-3 p-3"></i>Tables</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-wrench fa-lg mr-3 p-3"></i>Settings</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav flex-column mt-4 pb-3">
+                      <li class="nav-item">
+                        <a class="nav-link text-white sidebar-link" href="#">
+                          <i class="text-white fas fa-file-alt fa-lg mr-3 p-3"></i>Documentaion</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- End sidebar -->
+                </div>
+              </div>
+            </div>
+          </nav><!-- End navbar -->
+      
+        </div>
+        <div class="col-lg-10 col-9 top-navbar ml-auto py-2 bg-dark">
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <h4 class="text-white mb-0">Dashboard</h4>
+            </div>
+            <div class="col-md-5">
+              <form>
+                <div class="input-group">
+                  <input class="form-control search-input" type="search" placeholder="Search...">
+                  <button class="btn btn-white search-btn" type="button"><i class="fas fa-search text-danger "></i></button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-3">
+              <ul class="navbar-nav">
+                <li class="nav-item icon-parent"><a class="icon-bullet nav-link" href="#"><i class="fas fa-comments text-muted fa-lg"></i></a></li>
+                <li class="nav-item icon-parent"><a class="icon-bullet nav-link" href="#"><i class="fas fa-bell fa-lg"></i></a></li>
+                <li class="nav-item ml-sm-auto" data-toggle="modal" data-target="#sign-out"><a class="nav-link" href="#"><i class="fas fa-sign-out-alt fa-lg text-danger"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10 col-9 ml-auto"></div>
+      </div>
+    </div>
+
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html> 
